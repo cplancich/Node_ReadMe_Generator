@@ -7,7 +7,13 @@ const generateMarkdown = (data) => {
     
     ## Table of Contents (Optional)
     
-    
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [License](#license)
+    - [Contributing](#contributing)
+    - [Tests](#tests)
+    - [Questions](#questions)
+
     
     ## Installation
     
@@ -15,55 +21,48 @@ const generateMarkdown = (data) => {
     
     ## Usage
     
-    
+    ${data.projectUsage}
     
     ## License
     
+    ${data.projectLicense}
     
+    ## Contributing
     
-    ## How to Contribute
-    
-    
+    ${data.projectContributing}
     
     ## Tests
     
+    ${data.projectTests} 
     
+    ## Questions
     
-    ## Questions`
+    ${data.projectQuestions}
+
+    [Github](https://www.github.com/${data.projectGithub})
+    [Email](mailto:${data.projectEmail})
+    
+    `
 }
 
 // TODO: Create a function that returns a license badge based on which license is needed
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-    
+    // return empty if user selects none
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
     // specific license URL
+        // return empty if user selects none
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
     // render paragraph for selected license
+        // return empty if user selects none
 }
-
-// TODO: Create a function to generate markdown for README
-function renderTitle(title) {
-    return `#${data.title}`;
-}
-
-// data.title
-// data.description
-// data.authorName
-
-
-// function generateMarkdown(data) {
-//     return `# ${renderTitle(data.title)}
-    
-//     `;
-//     }
 
 module.exports = generateMarkdown;
