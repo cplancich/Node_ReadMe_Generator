@@ -7,7 +7,17 @@ const inquirer = require('inquirer');
 // generate .md file
 
 // TODO: Create an array of questions for user input
-const questions = [];
+inquirer
+  .prompt([
+    {
+        type: '',
+        message: '',
+        name: ''
+    },
+])
+.then((answers) => {
+    console.log(answers);
+})
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
