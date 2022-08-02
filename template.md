@@ -1,16 +1,31 @@
-<!-- Project Title (README.md title)-->
+# ${data.projectName}
 
-<!-- Table of Contents w/ links -->
+## Description
 
-<!-- Description -->
-<!-- Installation -->
-<!-- Usage -->
-<!-- Contributing -->
-<!-- Tests -->
+${data.Description}
 
-<!-- License -->
-<!-- Badge is added near top of README -->
-<!-- Notice is added to license section of README  -->
+## Table of Contents (Optional)
 
-<!-- Questions (GitHub username w/ link from prompt) -->
-<!-- Email address from prompt -->
+
+
+## Installation
+
+
+
+## Usage
+
+
+
+## License
+
+
+
+## How to Contribute
+
+
+
+## Tests
+
+
+
+## Questions
