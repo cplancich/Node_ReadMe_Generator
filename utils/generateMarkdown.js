@@ -40,6 +40,7 @@ ${data.projectTests}
 ${data.projectQuestions}
 
 [Github](https://www.github.com/${data.projectGithub})
+
 [Email](mailto:${data.projectEmail})
 `
 
