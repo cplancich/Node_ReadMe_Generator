@@ -15,11 +15,13 @@ This Node-based application is used to quickly generate formatted README.md file
 
 ## Installation
     
-Clone the repository files to your local machine and navigate to the root directory of that folder in your terminal / gitbash window. Run the command 'node index.js' and answer the prompts until the console message "Success!" is displayed. A Generated_README.md file is then rendered to the output folder based off the user's prompt responses.
+Clone the repository files to your local machine and navigate to the root directory of that folder in your terminal / gitbash window. Run the command 'node index.js' and answer the prompts until the console message "Success!" is displayed. A Generated_README.md file is then rendered to the output folder based off the user's prompt responses. 
+
+Note: This application will not run if [Node.js](https://nodejs.org/en/) is not installed on your machine.
     
 ## Usage
     
-Quickly generate formatted README.md files with ease in this Node-based application.
+Quickly generate README.md files formatted for use with Github repositories with ease in this Node-based application.
     
 ## License
     
