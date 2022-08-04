@@ -1,48 +1,48 @@
 const generateMarkdown = (data) => {
-    return `# ${data.projectName}
+    return `
+# ${data.projectName}
 
-    ## Description
+## Description
     
-    ${data.Description}
+${data.projectDescription}
     
-    ## Table of Contents (Optional)
+## Table of Contents
     
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
+## Installation
     
-    ## Installation
+${data.installInstructions}
     
-    ${data.installInstructions}
+## Usage
     
-    ## Usage
+${data.projectUsage}
     
-    ${data.projectUsage}
+## License
     
-    ## License
+${data.projectLicense}
     
-    ${data.projectLicense}
+## Contributing
     
-    ## Contributing
+${data.projectContributing}
     
-    ${data.projectContributing}
+## Tests
     
-    ## Tests
+${data.projectTests} 
     
-    ${data.projectTests} 
+## Questions
     
-    ## Questions
-    
-    ${data.projectQuestions}
+${data.projectQuestions}
 
-    [Github](https://www.github.com/${data.projectGithub})
-    [Email](mailto:${data.projectEmail})
-    
-    `
+[Github](https://www.github.com/${data.projectGithub})
+[Email](mailto:${data.projectEmail})
+`
+
 }
 
 // TODO: Create a function that returns a license badge based on which license is needed
